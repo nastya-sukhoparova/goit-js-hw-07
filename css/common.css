@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery li {
+    flex-basis: calc(33.333% - 16px);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.widget {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.change-color {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.color {
+    font-weight: bold;
+}
